@@ -1,0 +1,1 @@
+Compare original vs converted recipe and evaluate rule compliance.

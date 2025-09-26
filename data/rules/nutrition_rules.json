@@ -1,0 +1,30 @@
+{
+  "version": "2025-09-26",
+  "targets": {
+    "main": {"sodium_g_max": 1.2, "protein_g_min": 25, "carbs_g_range": [10, 20]},
+    "soup": {"sodium_g_max": 1.0, "protein_g_min": 15, "carbs_g_range": [5, 15]},
+    "side": {"sodium_g_max": 0.8, "protein_g_min": 10, "carbs_g_range": [5, 15]},
+    "starch": {"sodium_g_max": 1.2, "protein_g_min": 20, "carbs_g_range": [40, 60]},
+    "default": {"sodium_g_max": 1.2, "protein_g_min": 25, "carbs_g_range": [10, 60]}
+  },
+  "swap_rules": [
+    {
+      "name": "soy_sauce_reduction",
+      "from": "醤油",
+      "to": "出汁＋レモン＋味の素",
+      "notes": "酸味と旨味で塩分を置換"
+    },
+    {
+      "name": "deep_fry_to_pan_fry",
+      "from": "揚げ油たっぷり",
+      "to": "オリーブ油小さじ1で揚げ焼き",
+      "notes": "油量と飽和脂肪を削減"
+    }
+  ],
+  "protein_sources": [
+    {"name": "鶏むね肉", "serving_g": 120, "protein_g": 26},
+    {"name": "鶏ひき肉", "serving_g": 120, "protein_g": 24},
+    {"name": "木綿豆腐", "serving_g": 150, "protein_g": 13},
+    {"name": "ツナ水煮缶", "serving_g": 70, "protein_g": 16}
+  ]
+}

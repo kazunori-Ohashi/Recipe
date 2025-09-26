@@ -1,0 +1,17 @@
+{
+  "name": "recipe-llm-pipeline",
+  "version": "0.1.0",
+  "description": "LLM-driven recipe conversion workflow for hypertension and prediabetes contexts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test:unit": "node scripts/dev/noop.js unit-tests",
+    "test:int": "node scripts/dev/noop.js integration-tests",
+    "test:workflow": "node scripts/dev/noop.js workflow-tests",
+    "test:e2e": "node scripts/dev/noop.js e2e-tests",
+    "lint": "node scripts/dev/noop.js lint"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

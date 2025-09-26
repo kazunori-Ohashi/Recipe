@@ -1,0 +1,51 @@
+{
+  "title": "鶏むね青のり焼き_減塩低GI版",
+  "servings": 1,
+  "nutrition_targets": {
+    "sodium_g_max": 1.2,
+    "protein_g_min": 25,
+    "carbs_g_range": [10, 20]
+  },
+  "swaps": [
+    {
+      "from": "塩 小さじ1/4",
+      "to": "レモン汁小さじ2＋昆布だし＋味の素少量",
+      "rationale": "酸味と旨味で塩分を置換"
+    },
+    {
+      "from": "鶏もも肉 300g",
+      "to": "鶏むね肉 120g",
+      "rationale": "脂質を抑えつつたんぱく質を確保"
+    }
+  ],
+  "ingredients": [
+    {"name": "鶏むね肉", "amount": "120g", "notes": "そぎ切り"},
+    {"name": "木綿豆腐", "amount": "100g", "notes": "水切り"},
+    {"name": "青のり", "amount": "小さじ2", "notes": null},
+    {"name": "昆布だし", "amount": "大さじ2", "notes": null},
+    {"name": "レモン汁", "amount": "小さじ2", "notes": null},
+    {"name": "ごま油", "amount": "小さじ1", "notes": null},
+    {"name": "にんにく", "amount": "1片すりおろし", "notes": null},
+    {"name": "黒こしょう", "amount": "少々", "notes": null}
+  ],
+  "steps": [
+    "鶏むね肉はそぎ切りし、昆布だし・レモン汁・にんにくと混ぜて10分置く",
+    "木綿豆腐を手で崩し青のりと合わせ、鶏肉にまとわせる",
+    "フライパンにごま油を入れ、中火で表面をこんがり焼く",
+    "火を止めて味の素をひと振りし、黒こしょうで締める"
+  ],
+  "estimates": {
+    "sodium_g": 1.0,
+    "carbs_g": 11,
+    "protein_g": 32,
+    "fat_g": 11
+  },
+  "image_prompt": "Natural light photo of a healthy Japanese chicken dish with tofu and aonori, plated on white ceramics, drizzle of olive oil, lemon wedge, overhead angle.",
+  "checklist": [
+    {"item": "塩分", "status": "pass", "detail": "1.0g以内"},
+    {"item": "糖質", "status": "pass", "detail": "11g"},
+    {"item": "たんぱく質", "status": "pass", "detail": "32g"},
+    {"item": "調味", "status": "pass", "detail": "酸味と旨味で補正"}
+  ],
+  "notes": "塩は使わず、昆布だしとレモンで下味を作る"
+}

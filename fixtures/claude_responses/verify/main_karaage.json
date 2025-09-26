@@ -1,0 +1,15 @@
+{
+  "materials_check": [
+    {"original": "鶏もも肉", "converted": ["鶏むね肉"], "status": "pass", "notes": "脂質削減目的の置換"},
+    {"original": "塩", "converted": ["レモン汁", "昆布だし", "味の素"], "status": "pass", "notes": "酸味と旨味で置換"},
+    {"original": "揚げ油", "converted": ["ごま油"], "status": "pass", "notes": "揚げ焼きに変更"}
+  ],
+  "rule_checks": [
+    {"rule": "塩分閾値", "status": "pass", "llm_comment": "推定1.0g"},
+    {"rule": "糖質閾値", "status": "pass", "llm_comment": "11g"},
+    {"rule": "たんぱく質", "status": "pass", "llm_comment": "32g"},
+    {"rule": "コア食材優先", "status": "pass", "llm_comment": "鶏むね肉・豆腐を使用"}
+  ],
+  "overall_assessment": "pass",
+  "suggested_actions": ["提供人数を1人分として明記"]
+}

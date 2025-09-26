@@ -1,0 +1,22 @@
+{
+  "title": null,
+  "servings": 2,
+  "ingredients": [
+    {"name": "鶏もも肉", "amount": "1枚（300g）"},
+    {"name": "鶏がらスープの素", "amount": "小さじ1"},
+    {"name": "塩", "amount": "小さじ1/4"},
+    {"name": "酒", "amount": "小さじ2"},
+    {"name": "ごま油", "amount": "小さじ1"},
+    {"name": "にんにくチューブ", "amount": "3cm"},
+    {"name": "青のり", "amount": "大さじ1"},
+    {"name": "片栗粉", "amount": "大さじ2"},
+    {"name": "揚げ油", "amount": "大さじ2"}
+  ],
+  "steps": [
+    "ひと口サイズに切った鶏もも肉に◎を揉みこんで10分置く",
+    "片栗粉をまぶし弱中火で揚げ焼きにする",
+    "両面を焼いて余分な油を拭き取る"
+  ],
+  "category": "main",
+  "source_text_path": "fixtures/raw/main_karaage.txt"
+}
